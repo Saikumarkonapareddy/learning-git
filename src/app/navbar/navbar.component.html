@@ -1,0 +1,73 @@
+<nav class="navbar  navbar-expand-lg bg-light navbar-anime">
+  <div class="container-fluid navigation">
+    <a class="navbar-brand company-name" href="#">Tube Tree Hydraulics</a>
+    <button
+      class="navbar-toggler bg-white"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      (click)="onNavOpen()"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+      [ngClass]="{ show: navOpen }"
+    >
+      <ul class="navbar-nav me-auto mb-2 ml-lg-3 components">
+        <li class="nav-item">
+          <a class="nav-link component" aria-current="page" href="#" routerLink=""
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link component" routerLink="products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link component" routerLink="aboutUs">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link component" routerLink="contactUs">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link component border border-dark rounded-pill p-2 m-2" >
+            <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-telephone-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+          />
+        </svg>
+        Call : +9876543210
+          </a>
+        </li>
+      </ul>
+      <!-- <span class="navbar-text border border-dark rounded-pill p-2 m-2 call-etailsd">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-telephone-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+          />
+        </svg>
+        Call : +9876543210
+      </span> -->
+    </div>
+  </div>
+</nav>
